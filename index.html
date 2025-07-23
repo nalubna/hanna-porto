@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Hanna Nashita L.</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons Link -->
+    <script
+      src="https://kit.fontawesome.com/8209aec895.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header - Navbar -->
+    <header>
+      <nav>
+        <div class="navbar-menu">
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <div><i class="fa-solid fa-xmark"></i></div>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a class="my-porto" href="#"><span>my</span>Portofolio</a>
+            </li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About Me</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li onclick="showSidebar()">
+              <div><i class="fa-solid fa-bars"></i></div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="home-content">
+        <div class="intro">
+          <h1>Portofolio</h1>
+          <h3>Graphic Designer</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+      <h1 class="heading">About Me</h1>
+      <div class="about-content">
+        <img
+          class="my-photo"
+          width="100"
+          src="./assets/images/my-photo.png"
+          alt="my photo"
+        />
+        <div class="description">
+          <h2>Hello!</h2>
+          <h3>I'm Hanna Nashita Lubna</h3>
+          <p>
+            A dedicated graphic designer. <br />
+            I strive to create visually appealing and balance design that
+            resonate with my target audience.
+          </p>
+          <p class="p2">Explore my projects to learn more about what I do.</p>
+          <a class="btn" href="#projects">Learn more</a>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Skill & Tools</h3>
+        <img
+          width="100"
+          src="./assets/images/skill-tool-design.png"
+          alt="skill: translating ideas or information into captivating design, addressing design challenges, and attention to detail. tools: adobe illustrator, procreate, and adobe photoshop."
+        />
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project" id="projects">
+      <h1 class="heading">My Projects</h1>
+      <div class="project-content">
+        <div class="wrapper">
+          <div class="list">
+            <img
+              height="100"
+              src="./assets/images/Logo Design Cookies.png"
+              alt="Logo Designs"
+            />
+            <div class="info">
+              <h3>Logo Design</h3>
+              <p>2025</p>
+              <a target="_blank" href="logo.html">> See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="list">
+            <img
+              height="100"
+              src="./assets/images/Poster Product Soda.png"
+              alt="Poster"
+            />
+            <div class="info">
+              <h3>Poster</h3>
+              <p>2025</p>
+              <a target="_blank" href="poster.html">> See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="list">
+            <img
+              height="100"
+              src="./assets/images/Banner Beauty Spa .png"
+              alt="Banner"
+            />
+            <div class="info">
+              <h3>Banner</h3>
+              <p>2025</p>
+              <a target="_blank" href="banner.html">> See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="list">
+            <img
+              height="100"
+              src="./assets/images/Mockup Product Cookie.png"
+              alt="Branding"
+            />
+            <div class="info">
+              <h3>Branding</h3>
+              <p>2025</p>
+              <a target="_blank" href="branding.html">> See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h1 class="heading kontak">Contact Me</h1>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <a
+            class="color"
+            href="https://maps.app.goo.gl/iwoSV7byTqEoubRz8"
+            target="_blank"
+            ><i class="fa-solid fa-location-dot"></i> West Java, Indonesia</a
+          >
+          <a href="https://wa.me/6287772564987" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i> +62 877-7256-4987
+          </a>
+
+          <a class="color" href="mailto:hannanashita0@gmail.com" target="_blank"
+            ><i class="fa-solid fa-envelope"></i> hannanashita0@gmail.com</a
+          >
+        </div>
+        <div class="contact-me">
+          <h3>Send Message</h3>
+          <form class="my-form" id="myForm">
+            <label for="name">Name:</label><br />
+            <input
+              placeholder="enter your full name"
+              type="text"
+              id="name"
+            /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea
+              placeholder="enter your message"
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea
+            ><br />
+
+            <button type="submit" class="btn">Send to WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="account">
+        <a
+          aria-label="instagram"
+          target="_blank"
+          href="https://www.instagram.com/hnnanshita_l"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+
+        <a
+          aria-label="linkedin"
+          target="_blank"
+          href="https://www.linkedin.com/in/hanna-nashita-lubna-216295310/"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a aria-label="github" target="_blank" href="https://github.com/nalubna"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="navbar-links">
+        <a href="#">Home</a>
+        <span> • </span>
+        <a href="#about">About Me</a>
+        <span> • </span>
+        <a href="#projects">Projects</a>
+        <span> • </span>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>Copyright &copy; All rights reserved | Design by Hanna</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
