@@ -196,6 +196,9 @@ nav .navbar-menu .sidebar .fa-xmark {
 /* Home */
 
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   width: 100%;
   min-height: 100vh;
@@ -204,20 +207,13 @@ nav .navbar-menu .sidebar .fa-xmark {
   background-size: cover;
 }
 
-.home-content {
-  margin-top: 12rem;
-  margin-left: 20rem;
-}
-
-.home-content .intro h1 {
+.home-content h1 {
   font-size: 8rem;
   letter-spacing: 0.5rem;
   color: var(--dark-blue);
-  /* color: transparent;
-  -webkit-text-stroke: 7px var(--dark-blue); */
 }
 
-.home-content .intro h3 {
+.home-content h3 {
   font-family: var(--ff-caveat);
   color: var(--dark-blue);
   font-size: 7rem;
@@ -488,18 +484,28 @@ footer p {
 
 /**** MEDIA QUERIES */
 @media (max-width: 900px) {
-  .home-content {
-    margin-top: 10rem;
-    margin-left: 10rem;
-  }
-
-  .home-content .intro h1 {
-    font-size: 4rem;
+  .home-content h1 {
+    font-size: 6rem;
     letter-spacing: 0.2rem;
   }
 
-  .home-content .intro h3 {
-    font-size: 3rem;
+  .home-content h3 {
+    font-size: 5rem;
+  }
+
+  .about-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.4rem;
+    padding: 2.5rem;
+  }
+
+  .heading.kontak {
+    margin-inline: 0;
+  }
+
+  .contact-content {
+    margin-inline: 0;
   }
 }
 
