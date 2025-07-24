@@ -185,7 +185,6 @@ nav .navbar-menu .sidebar .fa-xmark {
 .project-content,
 .contact-content {
   background: var(--semi-blue);
-  /* border: 3px solid var(--black); */
   border-radius: 18px;
   box-shadow: 0 10px 10px var(--shadow);
 }
@@ -561,7 +560,20 @@ footer p {
   .about,
   .project,
   .contact {
-    padding: 2rem;
+    padding: 0;
+  }
+
+  .about,
+  .project {
+    padding: 3.2rem;
+  }
+
+  .contact {
+    padding: 0;
+  }
+
+  .project-content .wrapper {
+    width: 100%;
   }
 
   .home-content h1 {
@@ -615,12 +627,14 @@ footer p {
   }
 
   .heading.kontak {
-    margin-inline: 0;
+    margin-inline: 3rem;
   }
 
   .contact-content {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     margin-inline: 0;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .contact-info h3 {
