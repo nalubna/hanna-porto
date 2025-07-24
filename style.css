@@ -689,7 +689,7 @@ footer p {
 
   .contact-me .my-form input,
   textarea {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   footer .account {
