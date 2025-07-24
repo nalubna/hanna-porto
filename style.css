@@ -594,7 +594,7 @@ footer p {
 
   .about,
   .project {
-    padding: 3.2rem;
+    padding: 2.5rem;
   }
 
   .contact {
@@ -657,7 +657,7 @@ footer p {
   }
 
   .skill .list.skills {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .skill .list li {
@@ -674,6 +674,7 @@ footer p {
   }
 
   .heading.kontak {
+    margin-top: 1rem;
     margin-inline: 3rem;
   }
 
