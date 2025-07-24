@@ -177,7 +177,7 @@ nav .navbar-menu .sidebar .fa-xmark {
 .about,
 .project,
 .contact {
-  padding: 7rem;
+  padding: 6.5rem;
 }
 
 .about-content,
@@ -265,11 +265,28 @@ nav .navbar-menu .sidebar .fa-xmark {
   margin-bottom: 0.5rem;
 }
 
-.skill img {
-  margin: auto;
-  width: 100%;
-  height: auto;
-  padding-inline: 10rem;
+.skill .list h3 {
+  font-size: 2rem;
+  color: var(--dark-blue);
+}
+
+.skill .list.skills {
+  font-size: 1.8rem;
+}
+
+.skill .list li {
+  margin-left: 3rem;
+  list-style-type: circle;
+}
+
+.skill .list .wrap {
+  position: relative;
+  left: 1rem;
+}
+
+.skill .list img {
+  width: 400px;
+  height: 100%;
 }
 
 /* Projects */
@@ -495,6 +512,15 @@ footer p {
     margin-bottom: 0.5rem;
   }
 
+  .skill .list.skills {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+  }
+
+  .skill .list img {
+    width: 300px;
+  }
+
   .project-content .list:hover {
     transform: translateY(0px);
   }
@@ -533,6 +559,15 @@ footer p {
     justify-content: center;
     gap: 1.4rem;
     padding: 2.5rem;
+  }
+
+  .skill .list.skills {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+  }
+
+  .skill .list img {
+    width: 300px;
   }
 
   .heading.kontak {
@@ -617,11 +652,25 @@ footer p {
     margin-bottom: 0.5rem;
   }
 
-  .skill img {
-    margin: auto;
-    width: 100%;
-    height: auto;
-    padding-inline: 10rem;
+  .skill .list h3 {
+    font-size: 1.4rem;
+  }
+
+  .skill .list.skills {
+    font-size: 1rem;
+  }
+
+  .skill .list li {
+    margin-left: 1.5rem;
+  }
+
+  .skill .list .wrap {
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .skill .list img {
+    width: 200px;
   }
 
   .heading.kontak {
