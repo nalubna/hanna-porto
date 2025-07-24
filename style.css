@@ -474,6 +474,29 @@ footer p {
 /**** MEDIA QUERIES */
 
 @media (max-width: 1366px) {
+  .about-content {
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .about-content .description h2 {
+    font-size: 3rem;
+  }
+
+  .about-content .description h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .about-content .description p {
+    font-size: 1.3rem;
+  }
+
+  .about-content .description .p2 {
+    margin-bottom: 0.5rem;
+  }
+
   .project-content .list:hover {
     transform: translateY(0px);
   }
@@ -550,4 +573,144 @@ footer p {
 }
 
 @media (max-width: 420px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .about,
+  .project,
+  .contact {
+    padding: 2rem;
+  }
+
+  .home-content h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .home-content h3 {
+    font-size: 3rem;
+  }
+
+  .about-content {
+    gap: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .about-content .my-photo {
+    width: 180px;
+    height: 100%;
+  }
+
+  .about-content .description h2 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .about-content .description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .about-content .description p {
+    font-size: 1rem;
+  }
+
+  .about-content .description .p2 {
+    margin-bottom: 0.6rem;
+  }
+
+  .skill h3 {
+    padding-inline-start: 0;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .skill img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-inline: 10rem;
+  }
+
+  .project-content .list:hover {
+    transform: translateY(0px);
+  }
+
+  .project-content .list:before {
+    opacity: 1;
+  }
+
+  .project-content .list:hover:before {
+    opacity: 1;
+  }
+
+  .project-content .list .info {
+    font-size: 1rem;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .project-content .list:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .heading.kontak {
+    margin-inline: 0;
+  }
+
+  .contact-content {
+    margin-inline: 0;
+    padding: 1rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1.6rem;
+  }
+
+  .contact-info a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .contact-me {
+    font-size: 1.2rem;
+  }
+
+  .contact-me h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .contact-me .my-form input,
+  textarea {
+    margin-bottom: 0;
+  }
+
+  footer .account {
+    gap: 0.3rem;
+  }
+
+  footer .account a {
+    font-size: 1.3rem;
+    margin: 1.2rem 1.4rem;
+  }
+
+  footer .navbar-links {
+    gap: 0.5rem;
+  }
+
+  footer .navbar-links a {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.6rem;
+    padding: 1.2rem;
+  }
 }
