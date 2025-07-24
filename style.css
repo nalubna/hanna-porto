@@ -507,14 +507,6 @@ footer p {
   .contact-content {
     margin-inline: 0;
   }
-
-  .contact-info h3 {
-    font-size: 2rem;
-  }
-
-  .contact-me h3 {
-    font-size: 1.8rem;
-  }
 }
 
 @media (max-width: 420px) {
