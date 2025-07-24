@@ -547,28 +547,6 @@ footer p {
   .contact-info h3 {
     font-size: 2.3rem;
   }
-
-  .project-content .list:hover {
-    transform: translateY(0px);
-  }
-
-  .project-content .list:before {
-    opacity: 1;
-  }
-
-  .project-content .list:hover:before {
-    opacity: 1;
-  }
-
-  .project-content .list .info {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-
-  .project-content .list:hover .info {
-    opacity: 1;
-    transform: translateY(0px);
-  }
 }
 
 @media (max-width: 420px) {
@@ -634,29 +612,6 @@ footer p {
     width: 100%;
     height: auto;
     padding-inline: 10rem;
-  }
-
-  .project-content .list:hover {
-    transform: translateY(0px);
-  }
-
-  .project-content .list:before {
-    opacity: 1;
-  }
-
-  .project-content .list:hover:before {
-    opacity: 1;
-  }
-
-  .project-content .list .info {
-    font-size: 1rem;
-    opacity: 1;
-    transform: translateY(0px);
-  }
-
-  .project-content .list:hover .info {
-    opacity: 1;
-    transform: translateY(0px);
   }
 
   .heading.kontak {
