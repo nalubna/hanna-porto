@@ -483,6 +483,65 @@ footer p {
 }
 
 /**** MEDIA QUERIES */
+@media (hover: hover) {
+  .project-content .list {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    background-color: var(--white);
+    transition: 0.5s ease-in-out;
+    display: flex;
+    box-shadow: 0 5px 10px var(--shadow);
+  }
+  
+  .project-content .list:hover {
+    transform: translateY(20px);
+  }
+  
+  .project-content .list:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(252, 157, 204, 0.5),
+      rgba(60, 130, 176, 1)
+    );
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+  }
+  
+  .project-content .list:hover:before {
+    opacity: 1;
+  }
+  
+  .project-content .list .info {
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 3;
+    color: var(--white);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+  
+  .project-content .list:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+  .project-content .list .info a:hover {
+    color: var(--white);
+  }
+}
+
 @media (max-width: 900px) {
   .home-content h1 {
     font-size: 6rem;
