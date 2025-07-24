@@ -502,39 +502,37 @@ footer p {
   .contact-info h3 {
     font-size: 2.3rem;
   }
-  
-  @media (hover: hover) {
-    .project-content .list {
-      transition: 500ms ease-in-out;
-    }
-  
-    .project-content .list:hover {
-      transform: translateY(0px);
-    }
-  
-    .project-content .list:before {
-      transition: 500ms all;
-      opacity: 1;
-    }
-  
-    .project-content .list:hover:before {
-      opacity: 0;
-    }
-  
-    .project-content .list .info {
-      opacity: 1;
-      transform: translateY(0px);
-      transition: 500ms all;
-    }
-  
-    .project-content .list:hover .info {
-      opacity: 0;
-      transform: translateY(0px);
-    }
-  
-    .project-content .list .info a:hover {
-      color: var(--white);
-    }
+
+  .project-content .list {
+    transition: 500ms ease-in-out;
+  }
+
+  .project-content .list:hover {
+    transform: translateY(0px);
+  }
+
+  .project-content .list:before {
+    transition: 500ms all;
+    opacity: 1;
+  }
+
+  .project-content .list:hover:before {
+    opacity: 0;
+  }
+
+  .project-content .list .info {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 500ms all;
+  }
+
+  .project-content .list:hover .info {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  .project-content .list .info a:hover {
+    color: var(--white);
   }
 }
 
