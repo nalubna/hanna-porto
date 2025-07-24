@@ -44,10 +44,7 @@ body {
   font-family: var(--ff-poppins);
   font-weight: var(--fw-normal);
   color: var(--black);
-  /* background: url(./assets/images/background-blue-scale.jpg) no-repeat; */
   background: var(--lighter-blue);
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .btn {
@@ -68,7 +65,7 @@ body {
 /**** NAVIGATION */
 
 nav {
-  z-index: 10;
+  z-index: 15;
   top: 0;
   left: 0;
   right: 0;
@@ -196,13 +193,14 @@ nav .navbar-menu .sidebar .fa-xmark {
 /* Home */
 
 .home {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  background-image: url(./assets/images/background-blue-scale.jpg);
+  background: url(./assets/images/background-blue-scale.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -476,32 +474,6 @@ footer p {
 /**** MEDIA QUERIES */
 
 @media (max-width: 1366px) {
-  .home-content h1 {
-    font-size: 6rem;
-    letter-spacing: 0.2rem;
-  }
-
-  .home-content h3 {
-    font-size: 5rem;
-  }
-
-  .about-content {
-    gap: 1.4rem;
-    padding: 2.5rem;
-  }
-
-  .heading.kontak {
-    margin-inline: 0;
-  }
-
-  .contact-content {
-    margin-inline: 0;
-  }
-
-  .contact-info h3 {
-    font-size: 2.3rem;
-  }
-
   .project-content .list:hover {
     transform: translateY(0px);
   }
