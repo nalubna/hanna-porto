@@ -51,7 +51,6 @@ body {
   cursor: pointer;
   font-size: 1.4rem;
   font-weight: var(--fw-medium);
-  /* border: 3px solid var(--black); */
   border-radius: 15px;
   background-color: var(--pink);
   color: var(--black);
@@ -177,7 +176,7 @@ nav .navbar-menu .sidebar .fa-xmark {
 .about,
 .project,
 .contact {
-  padding: 6.5rem;
+  padding: 7rem;
 }
 
 .about-content,
@@ -285,7 +284,7 @@ nav .navbar-menu .sidebar .fa-xmark {
 }
 
 .skill .list img {
-  width: 400px;
+  width: 450px;
   height: 100%;
 }
 
@@ -518,7 +517,7 @@ footer p {
   }
 
   .skill .list img {
-    width: 300px;
+    width: 350px;
   }
 
   .project-content .list:hover {
